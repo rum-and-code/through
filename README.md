@@ -98,7 +98,7 @@ class UsersQuery < Through::Pipe
 
   # If my params object contains a string key "role_ids", the pipe will get through this
   pipe_with "role_ids" do |query, ids, _|
-    query.where("useres.role_id in (:ids)", ids: ids)
+    query.where("users.role_id in (:ids)", ids: ids)
   end
 end
 ```

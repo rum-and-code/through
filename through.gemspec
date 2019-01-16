@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nicolas Boisvert"]
   spec.email         = ["nicolas@rumandcode.io"]
 
-  spec.summary       = %q{A gem that help you writes pipeline}
+  spec.summary       = %q{A gem that helps you write pipeline}
   spec.description   = %q{This gem has no official purpose, it's a pipeline, pipe anything you want through it from string to ActiveRecord query}
   spec.homepage      = "https://github.com/rumandcode/through"
   spec.license       = "MIT"
