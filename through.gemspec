@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/rum-and-code/through"
   spec.license       = "MIT"
 
-  spec.files         = ["lib/through.rb"]
+  spec.files         = ["lib/through.rb", "lib/through/version.rb"]
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
