@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A gem that helps you write pipeline}
   spec.description   = %q{This gem has no official purpose, it's a pipeline, pipe anything you want through it from string to ActiveRecord query}
-  spec.homepage      = "https://github.com/rumandcode/through"
+  spec.homepage      = "https://github.com/rum-and-code/through"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
