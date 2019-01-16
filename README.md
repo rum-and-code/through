@@ -4,7 +4,7 @@ A piping library with no dependency that let's you pipe anything you want from a
 
 ## Why?
 
-I was tired of always writig the following query filtering in my Rails controller.
+I was tired of always writing the following query filtering in my Rails controller.
 ```ruby
 class UsersController < ActionController
   def index
